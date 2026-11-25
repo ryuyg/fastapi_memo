@@ -4,6 +4,9 @@ __pycache__/
 venv/
 .DS_Store
 .vscode/
+
+git rm -r --cached .venv -q
+Add-Content .gitignore ".venv/`n__pycache__/"
 # 학생 배포용 공개 저장소라면 주석 해제 (정답 제외)
 # labs/instructor/
 # lesson_plan/fastapi_lesson_instructor.html
